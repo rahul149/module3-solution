@@ -1,0 +1,87 @@
+body{
+	font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border:0;
+	 border-radius: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #557c3e;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+	background-color: #f6b319;
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #61122f;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+h2{ margin-bottom: 15px;
+
+}
+
+
+.box{
+	margin: 10px;
+	background-color:#ff6666; 
+}
+
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+}
+#main-content{
+	margin-right: 10px;
+	margin-left: 10px
+}
+}
